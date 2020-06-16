@@ -9,12 +9,12 @@
     "access_key": "{{user `aws_access_key`}}",
     "secret_key": "{{user `aws_secret_key`}}",
     "region": "us-east-1",
-    "source_ami": "ami-0915e09cc7ceee3ab",
+    "source_ami": "ami-085925f297f89fce1",
     "instance_type": "t2.nano",
-    "ssh_username": "ec2-user",
+    "ssh_username": "ubuntu",
     "ami_name": "DevOpsClass-Build-{{isotime | clean_resource_name}}",
-    "vpc_id": "vpc-0f47002cff9d8dd21",
-    "subnet_id": "subnet-0596d277b10eedf7f"
+    "vpc_id": "vpc-0c2d3589dbdc3a0c3",
+    "subnet_id": "subnet-04fed3d7a31566f45"
   }],
   "provisioners": [{
     "type": "shell",
