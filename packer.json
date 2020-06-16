@@ -25,7 +25,7 @@
       "sudo apt install git -y",
       
       "sudo service nginx start",
-      "sudo chkconfig nginx on"
+     
       ]
   }]
 }
