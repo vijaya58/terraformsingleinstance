@@ -28,8 +28,9 @@
       "sudo cp webhooktesting/index.html /usr/share/nginx/html/index.html",
       "sudo cp webhooktesting/style.css /usr/share/nginx/html/style.css",
       "sudo cp webhooktesting/scorekeeper.js /usr/share/nginx/html/scorekeeper.js",
-       "sudo chkconfig nginx on"
       "sudo service nginx start",
+       "sudo chkconfig nginx on"
+      
            ]
   }]
 }
