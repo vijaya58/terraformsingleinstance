@@ -23,9 +23,7 @@
       "sudo apt update -y",
       "sudo apt install nginx -y",
       "sudo apt install git -y",
-      
       "sudo service nginx start",
-     
-      ]
+           ]
   }]
 }
